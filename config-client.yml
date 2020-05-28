@@ -2,5 +2,9 @@ config-prop:
   name: deafult
   value: 2332
 management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
   security:
     enabled: false  
