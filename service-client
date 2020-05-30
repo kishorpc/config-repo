@@ -1,0 +1,10 @@
+service-prop:
+  name: serviceDeafultName
+  value: 5657
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  security:
+    enabled: false  
